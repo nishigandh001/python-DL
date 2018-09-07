@@ -1,0 +1,6 @@
+n = input("Enter the list of numbers with commas separated: ")
+print("list of numbers:", n)
+list = n.split(",")
+tuple = tuple(list)
+n2 = (tuple[0],tuple[-1])
+print(n2)
